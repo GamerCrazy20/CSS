@@ -1,0 +1,40 @@
+/* Estilos para el menú de navegación */
+nav {
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+  }
+  
+  /* Estilos para el primer y cuarto párrafo */
+  p:first-of-type,
+  p:nth-of-type(4) {
+    font-size: 20px;
+    background-color: gray;
+    color: yellow;
+    border: 1px solid;
+    margin: 5px;
+    padding: 2px;
+  }
+  
+  /* Estilos para el tercer y quinto párrafo */
+  #id-paragraph {
+    font-size: 18px;
+    background-color: black;
+    color: red;
+    border: 1px solid;
+    margin: 5px;
+    padding: 2px;
+  }
+  
+  /* Estilos para el segundo y último párrafo */
+  .class-paragraph {
+    font-size: 18px;
+    background-color: black;
+    color: red;
+    border: 1px solid;
+    margin: 5px;
+    padding: 2px;
+  }
+
+  
