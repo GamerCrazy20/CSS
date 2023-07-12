@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario con Estilos y Menú de Opciones</title>
+  <style>
+    /* Agrega aquí tus estilos CSS para el formulario y el menú */
+    form {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    select {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    
+    .menu {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    .menu ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulario con Estilos y Menú de Opciones</h1>
+  
+  <form>
+    <!-- Agrega aquí los campos del formulario -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+    
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+    
+    <input type="submit" value="Enviar">
+  </form>
+  
+  <div class="menu">
+    <ul>
+      <li><a href="pagina1.html">Tipos de Listas</a></li>
+      <li><a href="pagina2.html">Tabla</a></li>
+      <li><a href="pagina3.html">Modelo de Cajas</a></li>
+    </ul>
+  </div>
+</body>
+</html>
